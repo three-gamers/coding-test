@@ -1,14 +1,7 @@
+# https://www.acmicpc.net/problem/2195
+
 S = str(input())
 P = str(input())
-
-# S = 'abaabba'
-# P = 'aaabbbabbbaaa'
-
-# abaabba
-# aaabbbabbbaaa
-
-# S = 'aaaaaaaaaaa'
-# P = 'aaaaaaaaaa'
 
 index = 0
 count = 0
@@ -30,13 +23,6 @@ while index < len(P):
     else:
         index += 1
         count += 1
-
-
-
-    # print(pStr, count)
-
-# print("index::", index)
-# print("count:: ", count)
 
 print(count)
 
